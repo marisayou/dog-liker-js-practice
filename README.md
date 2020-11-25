@@ -11,6 +11,7 @@ Once you can confirm that your server is hosting the data at http://localhost:30
 
 
 ## Deliverables
+(2:40)
 
 1. Import all dogs in the database so that they load into the page. The structure for each dog should look like this once it is loaded into the HTML:
 ```html
@@ -32,12 +33,16 @@ Once you can confirm that your server is hosting the data at http://localhost:30
             </form>
         </div>
 ```
+(2:54)
 
 2. Allow site users to submit a comment that is persisted to the database and, once a successful response is received from the server, updates the DOM without a refresh needed
+(3:09)
 
 3. Add functionality to the like button. You may handle this however you would like -- if you want to add a button for it, go for it! If you would prefer to have users click directly on the likes to increase them, that is acceptable. This should render *optimistically*, meaning that users can like the photo and see it on the DOM without waiting for a server response. 
+(3:18)
 
 4. Add functionality for a __super like__. For this, you should add a button that instantly adds 10 likes to that dog's database entry. You can choose if you want it to render optimistically or pessimistically. 
+(3:52)
 
 5. Add a form to the top of your html page which will allow users to add an entirely new dog to the database! For this particular deliverable, you are able to edit the HTML file directly *in combination with* adding event listeners and fetches into your javascript file handle the form submission. 
-
+(4:14)
